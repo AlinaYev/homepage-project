@@ -6,8 +6,8 @@
     // margin: 0 auto;
     max-width: 1366px;
     height: 471px;
-    margin-top: 19px;
     font-family: $font-family;
+    margin-bottom: 56px;
     .a-and-vector {
         display: flex;
         justify-content: space-between;
@@ -38,7 +38,6 @@
         background-image: url(images/MaskGroup.png);
         text-align: center;
         padding: 50px 277px 50px 277px;
-        
         h2{
             color: white;
             // font-family: 'Galien';
@@ -54,10 +53,10 @@
         }
     }
     .search-article {
+        box-sizing: border-box;
         position: relative;
-        height: 56px;
-        width: 940px;
-        margin: 56px 213px 56px 213px;
+        
+        margin: 56px 213px 0 213px;
 
         .search-button {
             background-image: url(images/searchimg.png);
@@ -72,17 +71,19 @@
             opacity: 0.6;
         }
         .search {
-            height: 100%;
-            width: 100%;
+            height: 56px;
+            width: 940px;
             border: none;
             background-color: #F4F4F4;
             border-radius: 10px;
             outline: none;
+            font-size: $font-size-xs;
+            padding: 20px 70px;
+            font-family: $font-family;
             &::placeholder {
                 color: rgba(31, 63, 104, 0.6);
-                font-size: $font-size-xs;
-                padding-left: 70px;
-                font-family: $font-family;
+                // font-size: $font-size-xs;
+                // font-family: $font-family;
             }
         }
     }

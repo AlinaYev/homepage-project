@@ -8,8 +8,13 @@
         padding: 20px 212px 20px 212px;
         font-family: $font-family;
         .popular {
-            font-size: $font-size-s;
-            color: rgb(53, 110, 173);
+            line-height: 25px;
+            letter-spacing: 0.04em;
+            color: #356EAD;
+            opacity: 0.8;
+            font-weight: 600;
+            font-family: 'Gilroy';
+            margin-bottom: 32px;
         }
         .content {
             display: flex;
@@ -52,6 +57,7 @@
                             background-repeat: no-repeat;
                             border: none;
                             background-position: center;
+                            background-color: transparent;
                         }
                         .share {
                                 width: 18px;
@@ -60,6 +66,7 @@
                                 background-repeat: no-repeat;
                                 border: none;
                                 background-position: center;
+                                background-color: transparent;
                         }
                     }
                 }
@@ -73,12 +80,7 @@
         .columns {
             display: flex;
             justify-content: space-between;
-            .col:first-child {
-                margin-right: 20px;
-            }
-            .col:last-child {
-                margin-left: 20px;
-            }
+            gap: 20px;
             .col {
                 h2 {
                     font-family: "Galien";
@@ -110,6 +112,7 @@
                             background-repeat: no-repeat;
                             border: none;
                             background-position: center;
+                            background-color: transparent;
                         }
                         .share {
                                 width: 18px;
@@ -118,6 +121,7 @@
                                 background-repeat: no-repeat;
                                 border: none;
                                 background-position: center;
+                                background-color: transparent;
                         }
                     }
                 }
@@ -126,13 +130,13 @@
         .see-all-popular-article {
             display: flex;
             justify-content: end;
+            margin: 24px 0;
             .popular-article {
                 color: rgb(53, 110, 173);
                 text-decoration: none;
                 font-size: $font-size-xs;
                 text-transform: uppercase;
-                margin-top: 24px;
-                margin-bottom: 24px;
+                
             }
         }
         .line {
@@ -145,8 +149,8 @@
                 font-size: $font-size-s;
                 color: #356EAD;
                 text-transform: uppercase;
+                margin-top: 56px;
                 margin-bottom: 0;
-
             }
             .article1 {
                 display: flex;
@@ -208,8 +212,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 56px;
-            margin-bottom: 56px;
+            margin: 56px 0;
             .new-post-button {
                 font-size: $font-size-xs;
                 color: #356EAD;

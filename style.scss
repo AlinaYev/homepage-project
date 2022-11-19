@@ -10,9 +10,17 @@
 @import './mixins';
 @import './header';
 @import './main';
-@import './footer'
+@import './footer';
 
-// * {
-//     box-sizing: border-box;
-//     margin: 0;
-// }
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    background-color: transparent;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
