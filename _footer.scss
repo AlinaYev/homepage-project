@@ -1,0 +1,98 @@
+.footer {
+    max-width: 1366px;
+    .container-with-footer {
+        background-image: url(images/background-footer.png);
+        background-repeat: no-repeat;
+        width: 1270px;
+        font-family: $font-family;
+        // padding: 91px 213px 64px 293px;
+        .feedback {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .container-for-text {
+                width: 460px;
+                margin-right: 180px;
+                margin-bottom: 96px;
+                .header-of-footer {
+                    color: white;
+                    font-size: $font-size-l;
+                }
+                .text-three {
+                    color: rgba(255, 255, 255, 0.6);
+                    font-size: $font-size-xs;
+                }
+            }
+            .lets-talk {
+                width: 220px;
+                height: 56px;
+                border: none;
+                border-radius: 10px;
+                background-color: #5A98D0;
+                color: white;
+
+            }
+        }
+        .line-two {
+            border-top: 1px solid rgba(255, 255, 255, 0.4);
+            width: 1073px;
+        }
+        .contacts-about-and-follow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 97px;
+            .contacts {
+                width: 300px;
+                .header-with-logo{
+                    display: flex;
+                    align-items: center;
+                    .header-of-contacts {
+                        color: white;
+                        font-size: $font-size-m;
+                    }
+                }
+                .texts {
+                    color: white;
+                    font-size: $font-size-xs;
+                    margin-top: 24px;
+                    .bold-letter {
+                        font-weight: 600;
+                        margin-right: 16px;
+                    }
+                }
+            }
+            .about {
+                .header-of-about {
+                    font-size: $font-size-s;
+                    color: white;
+                    font-weight: 600;
+                    margin-bottom: 32px;
+                }
+                .texts {
+                    margin-bottom: 16px;
+                    color: white;
+                    font-size: $font-size-xs;
+                }
+            }
+            .follow {
+                .header-of-follow {
+                    font-size: $font-size-s;
+                    color: white;
+                    font-weight: 600;
+                    margin-bottom: 32px;
+                }
+                .texts {
+                    margin-bottom: 16px;
+                    color: white;
+                    font-size: $font-size-xs;
+                }
+            }
+        }
+        .rights {
+            font-size: $font-size-xs;
+            color: rgba(255, 255, 255, 0.4);
+            margin: 64px 213px;
+        }
+    }
+}

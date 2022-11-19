@@ -1,0 +1,89 @@
+.header {
+    // background-color: rgb(240, 240, 240);
+    // position: relative;
+    // left: 0;
+    // right: 0;
+    // margin: 0 auto;
+    max-width: 1366px;
+    height: 471px;
+    margin-top: 19px;
+    font-family: $font-family;
+    .a-and-vector {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 83px 40px 83px;
+        width: 1200px;
+        height: 48px;
+        .awithcircle {
+            background-image: url(images/awithcircle.png);
+            background-repeat: no-repeat;
+            border: none;
+            background-position: center;
+            cursor: pointer;
+            width: 48px;
+            height: 32px;
+        }
+        .vector {
+            background-image: url(images/Vector.png);
+            background-repeat: no-repeat;
+            border: none;
+            background-position: center;
+            cursor: pointer;
+            width: 24px;
+            height: 16px;
+        }
+    }
+    .blog-afrianska {
+        background-image: url(images/MaskGroup.png);
+        text-align: center;
+        padding: 50px 277px 50px 277px;
+        
+        h2{
+            color: white;
+            // font-family: 'Galien';
+            font-size: $font-size-xl;
+            font-weight: 400;
+            margin: 16px;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: $font-size-s;
+            margin: 16px;
+            font-weight: 500;
+        }
+    }
+    .search-article {
+        position: relative;
+        height: 56px;
+        width: 940px;
+        margin: 56px 213px 56px 213px;
+
+        .search-button {
+            background-image: url(images/searchimg.png);
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 19px;
+            left: 27px;
+            border: none;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            opacity: 0.6;
+        }
+        .search {
+            height: 100%;
+            width: 100%;
+            border: none;
+            background-color: #F4F4F4;
+            border-radius: 10px;
+            outline: none;
+            &::placeholder {
+                color: rgba(31, 63, 104, 0.6);
+                font-size: $font-size-xs;
+                padding-left: 70px;
+                font-family: $font-family;
+            }
+        }
+    }
+}
