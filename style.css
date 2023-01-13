@@ -119,9 +119,15 @@
   color: #1F3F68;
   font-size: 48px;
   line-height: 58px;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
 }
 .main .container .content .main-content .text-one {
   font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  margin-bottom: 30px;
 }
 .main .container .content .main-content .author-date-and-button {
   display: flex;
@@ -129,14 +135,19 @@
   align-items: center;
   width: 320px;
   height: 60px;
+  margin-bottom: 32px;
 }
 .main .container .content .main-content .author-date-and-button .author {
   color: rgb(31, 63, 104);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .content .main-content .author-date-and-button .date {
   color: rgba(31, 63, 104, 0.4);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .content .main-content .author-date-and-button .buttons-fav-and-share {
   display: flex;
@@ -153,6 +164,7 @@
   border: none;
   background-position: center;
   background-color: transparent;
+  cursor: pointer;
 }
 .main .container .content .main-content .author-date-and-button .buttons-fav-and-share .share {
   width: 18px;
@@ -162,6 +174,7 @@
   border: none;
   background-position: center;
   background-color: transparent;
+  cursor: pointer;
 }
 .main .container .content .image-house1 {
   width: 100%;
@@ -172,23 +185,48 @@
   justify-content: space-between;
   gap: 20px;
 }
+.main .container .columns .col {
+  width: 300px;
+}
+.main .container .columns .col .img-col {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 16px;
+}
 .main .container .columns .col h2 {
   font-family: "Galien";
   font-weight: 600;
   color: #1F3F68;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+.main .container .columns .col .text-col {
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  margin-bottom: 16px;
 }
 .main .container .columns .col .author-date-and-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
+  margin-bottom: 32px;
 }
 .main .container .columns .col .author-date-and-button .author {
-  color: #1F3F68;
+  color: rgb(31, 63, 104);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .columns .col .author-date-and-button .date {
   color: rgba(31, 63, 104, 0.4);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .columns .col .author-date-and-button .buttons-fav-and-share {
   display: flex;
@@ -205,6 +243,7 @@
   border: none;
   background-position: center;
   background-color: transparent;
+  cursor: pointer;
 }
 .main .container .columns .col .author-date-and-button .buttons-fav-and-share .share {
   width: 18px;
@@ -214,6 +253,7 @@
   border: none;
   background-position: center;
   background-color: transparent;
+  cursor: pointer;
 }
 .main .container .see-all-popular-article {
   display: flex;
@@ -236,39 +276,53 @@
   color: #356EAD;
   text-transform: uppercase;
   margin-top: 56px;
-  margin-bottom: 0;
+  margin-bottom: 32px;
 }
 .main .container .all-article .article1 {
   display: flex;
-  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.main .container .all-article .article1 .img-all-article {
+  width: 300px;
+  height: 200px;
 }
 .main .container .all-article .article1 .text-right-side {
   margin-left: 19px;
+  width: 540px;
 }
 .main .container .all-article .article1 .text-right-side .header-of-text {
   font-family: "Galien";
   font-weight: 600;
   color: #1F3F68;
   font-size: 28px;
+  margin-bottom: 16px;
 }
 .main .container .all-article .article1 .text-right-side .text-two {
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
+  margin-bottom: 14px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
 }
 .main .container .all-article .article1 .author-date-and-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 320px;
   height: 60px;
+  width: 300px;
 }
 .main .container .all-article .article1 .author-date-and-button .author {
-  color: #1F3F68;
+  color: rgb(31, 63, 104);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .all-article .article1 .author-date-and-button .date {
   color: rgba(31, 63, 104, 0.4);
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .main .container .all-article .article1 .author-date-and-button .buttons-fav-and-share {
   display: flex;
@@ -284,6 +338,8 @@
   background-repeat: no-repeat;
   border: none;
   background-position: center;
+  background-color: transparent;
+  cursor: pointer;
 }
 .main .container .all-article .article1 .author-date-and-button .buttons-fav-and-share .share {
   width: 18px;
@@ -292,6 +348,8 @@
   background-repeat: no-repeat;
   border: none;
   background-position: center;
+  background-color: transparent;
+  cursor: pointer;
 }
 .main .container .container-for-buttons-new-and-old {
   display: flex;
@@ -300,16 +358,27 @@
   margin: 56px 0;
 }
 .main .container .container-for-buttons-new-and-old .new-post-button {
+  width: 110px;
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: left;
   font-size: 16px;
   color: #356EAD;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 .main .container .container-for-buttons-new-and-old .old-post-button {
+  width: 110px;
+  background-image: url(images/arrow2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border: none;
   font-size: 16px;
   color: #356EAD;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 
 .footer {
@@ -348,6 +417,7 @@
   border-radius: 10px;
   background-color: #5A98D0;
   color: white;
+  cursor: pointer;
 }
 .footer .container-with-footer .line-two {
   border-top: 1px solid rgba(255, 255, 255, 0.4);

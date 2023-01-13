@@ -26,9 +26,15 @@
                     color: #1F3F68;
                     font-size: $font-size-xxl;
                     line-height: 58px;
+                    letter-spacing: 0.04em;
+                    margin-bottom: 32px;
                 }
                 .text-one {
-                    font-size: $font-size-xs;                 
+                    font-size: $font-size-xs;
+                    line-height: 26px;
+                    letter-spacing: 0.04em; 
+                    opacity: 0.6;
+                    margin-bottom: 30px;            
                 }
                 .author-date-and-button {
                     display: flex;
@@ -36,13 +42,18 @@
                     align-items: center;
                     width: 320px;
                     height: 60px;
+                    margin-bottom: 32px;
                     .author {
                         color: rgb(31, 63, 104);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .date {
                         color: rgba(31, 63, 104, 0.4);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .buttons-fav-and-share {
                         display: flex;
@@ -58,6 +69,7 @@
                             border: none;
                             background-position: center;
                             background-color: transparent;
+                            cursor: pointer;
                         }
                         .share {
                                 width: 18px;
@@ -67,6 +79,7 @@
                                 border: none;
                                 background-position: center;
                                 background-color: transparent;
+                                cursor: pointer;
                         }
                     }
                 }
@@ -82,22 +95,45 @@
             justify-content: space-between;
             gap: 20px;
             .col {
+                width: 300px;
+                .img-col {
+                    width: 300px;
+                    height: 200px;
+                    margin-bottom: 16px;
+                }
                 h2 {
                     font-family: "Galien";
                     font-weight: 600;
                     color: #1F3F68;
+                    line-height: 38px;
+                    letter-spacing: 0.04em;
+                    margin-bottom: 16px;
+                }
+                .text-col {
+                    font-family: $font-family;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0.04em;
+                    opacity: 0.6;
+                    margin-bottom: 16px;
                 }
                 .author-date-and-button {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    height: 60px;
+                    margin-bottom: 32px;
                     .author {
-                        color: #1F3F68;
+                        color: rgb(31, 63, 104);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .date {
                         color: rgba(31, 63, 104, 0.4);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .buttons-fav-and-share {
                         display: flex;
@@ -113,15 +149,17 @@
                             border: none;
                             background-position: center;
                             background-color: transparent;
+                            cursor: pointer;
                         }
                         .share {
                                 width: 18px;
-                                height: 20px;
+                                height: $font-size-s;
                                 background-image: url(images/share.png);
                                 background-repeat: no-repeat;
                                 border: none;
                                 background-position: center;
                                 background-color: transparent;
+                                cursor: pointer;
                         }
                     }
                 }
@@ -150,37 +188,51 @@
                 color: #356EAD;
                 text-transform: uppercase;
                 margin-top: 56px;
-                margin-bottom: 0;
+                margin-bottom: 32px;
             }
             .article1 {
                 display: flex;
-                margin-top: 32px;
+                margin-bottom: 32px;
+                .img-all-article {
+                    width: 300px;
+                    height: 200px;
+                }
                 .text-right-side {
                     margin-left: 19px;
+                    width: 540px;
                     .header-of-text {
                         font-family: "Galien";
                         font-weight: 600;
                         color: #1F3F68;
                         font-size: $font-size-m;
+                        margin-bottom: 16px;
                     }
                     .text-two {
                         color: #00000099;
                         font-size: $font-size-xs;
+                        margin-bottom: 14px;
+                        line-height: 26px;
+                        letter-spacing: 0.04em;
+                        opacity: 0.6;
                     }
                 }
                 .author-date-and-button {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    width: 320px;
                     height: 60px;
+                    width: 300px;
                     .author {
-                        color: #1F3F68;
+                        color: rgb(31, 63, 104);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .date {
                         color: rgba(31, 63, 104, 0.4);
                         font-size: $font-size-xxs;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
                     }
                     .buttons-fav-and-share {
                         display: flex;
@@ -195,14 +247,18 @@
                             background-repeat: no-repeat;
                             border: none;
                             background-position: center;
+                            background-color: transparent;
+                            cursor: pointer;
                         }
                         .share {
                                 width: 18px;
-                                height: 20px;
+                                height: $font-size-s;
                                 background-image: url(images/share.png);
                                 background-repeat: no-repeat;
                                 border: none;
                                 background-position: center;
+                                background-color: transparent;
+                                cursor: pointer;
                         }
                     }
                 }
@@ -214,16 +270,27 @@
             align-items: center;
             margin: 56px 0;
             .new-post-button {
+                width: 110px;
+                background-image: url(images/arrow.png);
+                background-repeat: no-repeat;
+                background-position: left;
                 font-size: $font-size-xs;
                 color: #356EAD;
                 border: none;
                 background-color: white;
+                cursor: pointer;
             }
             .old-post-button {
+                width: 110px;
+                background-image: url(images/arrow2.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                border: none;
                 font-size: $font-size-xs;
                 color: #356EAD;
                 border: none;
                 background-color: white;
+                cursor: pointer;
             }
         }
     }
